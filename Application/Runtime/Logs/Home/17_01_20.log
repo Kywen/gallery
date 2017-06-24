@@ -1,0 +1,680 @@
+[ 2017-01-20T17:26:42+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012828s ]
+ERR: 非法操作:index
+
+[ 2017-01-20T17:26:59+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+ERR: 参数错误或者未定义:user
+
+[ 2017-01-20T17:27:28+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001913s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0330s ]
+SQL: select * from t_user [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011748s ]
+
+[ 2017-01-20T17:28:14+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login%EF%BC%9Fuser=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+ERR: 非法操作:login？user=1
+
+[ 2017-01-20T17:28:22+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0525s ]
+SQL: select * from t_user [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2017-01-20T17:28:30+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0079s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-01-20T17:28:40+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0052s ]
+SQL: select * from t_user [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2017-01-20T17:29:11+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0057s ]
+SQL: select * from t_user [ RunTime:0.0003s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2017-01-20T17:29:16+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0610s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2017-01-20T17:30:56+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0045s ]
+SQL: select * from t_user [ RunTime:0.0003s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2017-01-20T17:31:18+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0332s ]
+SQL: select * from t_user [ RunTime:0.0003s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-01-20T17:31:35+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0047s ]
+SQL: select * from t_user [ RunTime:0.0003s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2017-01-20T17:31:37+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0053s ]
+SQL: select * from t_user [ RunTime:0.0003s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2017-01-20T17:34:14+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0053s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2017-01-20T17:34:54+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0056s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2017-01-20T17:34:55+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0051s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2017-01-20T17:35:07+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0044s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2017-01-20T17:35:51+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0050s ]
+SQL: select * from t_user [ RunTime:0.0003s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2017-01-20T17:35:52+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0047s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2017-01-20T17:36:11+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0051s ]
+SQL: select * from t_user [ RunTime:0.0004s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2017-01-20T18:06:15+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0052s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2017-01-20T18:06:32+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0056s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2017-01-20T18:07:50+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0055s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2017-01-20T18:08:20+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0044s ]
+SQL: select * from t_user [ RunTime:0.0003s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2017-01-20T18:13:59+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0051s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: t_password C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 16 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2017-01-20T18:15:15+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0052s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: t_password C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 15 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-01-20T18:15:29+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0055s ]
+SQL: select * from t_user [ RunTime:0.0003s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\chat\thinkphp_3.2.3_full\Application\Home\Controller\TestController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2017-01-20T18:17:53+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Chat/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.184101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.184693s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.714375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.714610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.042889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.043286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003461s ]
+
+[ 2017-01-20T18:17:55+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0141s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-01-20T18:18:20+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe,password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.1896s ]
+SQL: select * from t_user [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001351s ]
+
+[ 2017-01-20T18:18:24+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe,password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0736s ]
+SQL: select * from t_user [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001354s ]
+
+[ 2017-01-20T18:18:33+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe.password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0956s ]
+SQL: select * from t_user [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-01-20T18:18:41+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe/password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0576s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2017-01-20T18:18:50+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe&&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0491s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2017-01-20T18:19:29+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe&&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0046s ]
+SQL: select * from t_user [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2017-01-20T18:20:30+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe&&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0056s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2017-01-20T18:20:31+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe&&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0054s ]
+SQL: select * from t_user [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2017-01-20T18:20:57+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe&&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0063s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-01-20T18:22:24+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe&&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0051s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2017-01-20T18:22:27+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe&&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0045s ]
+SQL: select * from t_user [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2017-01-20T18:23:01+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe&&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0052s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2017-01-20T18:23:33+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe&&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0050s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2017-01-20T18:28:33+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe&&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0179s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2017-01-20T18:28:34+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe&&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0050s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2017-01-20T18:28:43+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe&&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0048s ]
+SQL: select * from t_user [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2017-01-20T18:28:58+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe&&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0049s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2017-01-20T18:30:04+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe&&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0055s ]
+SQL: select * from t_user [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2017-01-20T18:30:05+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe&&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0042s ]
+SQL: select * from t_user [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2017-01-20T18:30:32+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe&&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0043s ]
+SQL: select * from t_user [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2017-01-20T18:49:21+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe&&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0042s ]
+SQL: select * from t_user [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2017-01-20T19:34:30+08:00 ] ::1 /chat/thinkphp_3.2.3_full/index.php/home/Test/login?user=qwe&&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018603s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0310s ]
+SQL: select * from t_user [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
